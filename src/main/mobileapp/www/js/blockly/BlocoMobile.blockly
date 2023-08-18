@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly audit="false" blocklyType="MOBILE" bpmnAble="false" formTarget="" functionCategory="" library="false" linkHelp="" multilayer="false" resourceType="JS" ruleDescription="BlocoMobile" ruleName="BlocoMobile" ruleSynchronous="false" ruleTimeout="" ruleType="I" showAsFunction="false" soap="false" swagger="false">
+  <metadata scale="1" scrollx="436.5" scrolly="-85.40000000000003" target="Anb:u5+^,0vLkL9QIqn5"/>
+  <block asynccall="false" colour="#995ba5" datasourcetype="" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-350" y="130">
+    <field customattributes="" name="NAME">VerificarStatusDaRede</field>
+    <statement name="STACK">
+      <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="T6rv%SVLfb#M]2fn;/=t" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
+        <field customattributes="" name="VAR">item</field>
+        <value name="VALUE">
+          <block asynccall="false" colour="#846a27" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="aTUCnkfsa3d55G!0ry$," multilayer="false" namespace="cronapi.cordova.connection.verifyConnection" origintype="procedures_callreturn" output="true" returntype="ObjectType.BOOLEAN" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EVerificar%20Status%20da%20Rede%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20verificar%20qual%20o%20status%20da%20conex%C3%A3o%20do%20dispositivo.%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Tipo%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20L%C3%B3gico%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.cordova.connection.verifyConnection','cronapi.cordova.connection.verifyConnection')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+            <mutation name="{{cronapi.cordova.connection.verifyConnection}}" return-raw-type="undefined">
+              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Tipo"/>
+            </mutation>
+            <value name="ARG0">
+              <block asynccall="false" colour="#846a27" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="d5.0P@MysnUW8aPwwPqT" origintype="util_dropdown" output="true" type="util_dropdown">
+                <mutation>
+                  <arg name="Connection.UNKNOWN" value="Conexão desconhecida"/>
+                  <arg name="Connection.ETHERNET" value="Conexão Ethernet"/>
+                  <arg name="Connection.WIFI" value="Conexão WiFi"/>
+                  <arg name="Connection.CELL_2G" value="Conexão celular 2G"/>
+                  <arg name="Connection.CELL_3G" value="Conexão celular 3G"/>
+                  <arg name="Connection.CELL_4G" value="Conexão celular 4G"/>
+                  <arg name="Connection.CELL" value="Conexão celular genérico"/>
+                  <arg name="Connection.NONE" value="Nenhuma conexão de rede"/>
+                </mutation>
+                <field customattributes="" name="SELECT">Connection.CELL_4G</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+</blockly>
