@@ -11,12 +11,12 @@ window.blockly.js.blockly.blocosexclusivosmobile.OpenInAppBrowser = window.block
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 21/08/2023, 15:21:58
+ * @since 21/08/2023, 16:23:00
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.OpenInAppBrowser.ExampleArgs = [];
 window.blockly.js.blockly.blocosexclusivosmobile.OpenInAppBrowser.Example = async function() {
 
   //
-  this.cronapi.cordova.database.openInAppBrowser('https://www.cronapp.io/');
+  this.cronapi.cordova.database.openInAppBrowser('https://www.cronapp.io');
 }
