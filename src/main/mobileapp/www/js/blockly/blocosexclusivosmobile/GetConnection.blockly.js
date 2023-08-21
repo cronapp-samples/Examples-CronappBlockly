@@ -11,7 +11,7 @@ window.blockly.js.blockly.blocosexclusivosmobile.GetConnection = window.blockly.
  *
  *
  * @author Fábio Duarte Freitas
- * @since 21/08/2023, 10:47:19
+ * @since 21/08/2023, 15:31:35
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.GetConnection.ExampleArgs = [];
@@ -19,5 +19,12 @@ window.blockly.js.blockly.blocosexclusivosmobile.GetConnection.Example = async f
  var tipoDeRede;
   //
   tipoDeRede = this.cronapi.cordova.connection.getConnection();
-  return tipoDeRede;
+  //
+  if (tipoDeRede == true) {
+    //
+    this.cronapi.screen.notify('success',String('Rede Conecetada.'));
+  } else if (tipoDeRede == false) {
+    //
+    this.cronapi.screen.notify('error',String('Falha na Conexão.'));
+  }
 }
