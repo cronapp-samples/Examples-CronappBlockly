@@ -11,7 +11,7 @@ window.blockly.js.blockly.blocosexclusivosmobile.GetDirectory = window.blockly.j
  *
  *
  * @author Fábio Duarte Freitas
- * @since 23/08/2023, 10:37:24
+ * @since 23/08/2023, 10:43:46
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.GetDirectory.Example2Args = [];
@@ -30,7 +30,7 @@ window.blockly.js.blockly.blocosexclusivosmobile.GetDirectory.Example2 = async f
  *
  *
  * @author Fábio Duarte Freitas
- * @since 23/08/2023, 10:37:24
+ * @since 23/08/2023, 10:43:46
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.GetDirectory.ExampleArgs = [];
