@@ -11,7 +11,7 @@ window.blockly.js.blockly.blocosexclusivosmobile.RemoveStorageItem = window.bloc
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 24/08/2023, 17:00:05
+ * @since 25/08/2023, 15:03:35
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.RemoveStorageItem.ExampleArgs = [];
