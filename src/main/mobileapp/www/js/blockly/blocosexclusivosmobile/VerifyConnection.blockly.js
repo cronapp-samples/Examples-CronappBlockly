@@ -10,15 +10,15 @@ window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection = window.block
  *
  *
  *
- * @author Fábio Duarte Freitas
- * @since 21/08/2023, 13:23:51
+ * @author Laila Maria Vieira Souza
+ * @since 25/08/2023, 15:55:12
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.ExampleArgs = [];
 window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.Example = async function() {
  var status;
   //
-  status2 = this.cronapi.cordova.connection.verifyConnection('Connection.UNKNOWN');
+  status2 = this.cronapi.cordova.connection.verifyConnection('Connection.CELL_4G');
   //
-  this.cronapi.screen.notify('success',String('SS') + String(status2));
+  this.cronapi.screen.notify('success',String('Status da Rede: ') + String(status2));
 }
