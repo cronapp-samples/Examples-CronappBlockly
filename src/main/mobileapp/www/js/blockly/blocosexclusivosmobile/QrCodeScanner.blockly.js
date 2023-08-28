@@ -10,8 +10,8 @@ window.blockly.js.blockly.blocosexclusivosmobile.QrCodeScanner = window.blockly.
  *
  *
  *
- * @author Fábio Duarte Freitas
- * @since 25/08/2023, 11:56:16
+ * @author Laila Maria Vieira Souza
+ * @since 28/08/2023, 13:34:23
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.QrCodeScanner.ExampleArgs = [];

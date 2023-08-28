@@ -19,7 +19,7 @@ document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/V
 document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/Vibrate.blockly.js?1692987435058'></script>");
 document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/RemoveStorageItem.blockly.js?1692989443753'></script>");
 document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/WatchPosition.blockly.js?1692987435102'></script>");
-document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/GetCurrentPosition.blockly.js?1693230855068'></script>");
+document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/GetCurrentPosition.blockly.js?1693241009578'></script>");
 document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/GetConnection.blockly.js?1692987434938'></script>");
 document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/GetDeviceInfo.blockly.js?1692987434898'></script>");
 document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/CreateDirectory.blockly.js?1693225122079'></script>");
@@ -27,4 +27,4 @@ document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/R
 document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/ClearWatchPosition.blockly.js?1692987435078'></script>");
 document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/OpenInAppBrowser.blockly.js?1693224383495'></script>");
 document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/GetStorageItem.blockly.js?1692989443749'></script>");
-document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/QrCodeScanner.blockly.js?1692989443749'></script>");
+document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/QrCodeScanner.blockly.js?1693240458308'></script>");

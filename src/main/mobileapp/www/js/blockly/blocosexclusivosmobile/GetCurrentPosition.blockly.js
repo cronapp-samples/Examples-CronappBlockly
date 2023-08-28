@@ -11,7 +11,7 @@ window.blockly.js.blockly.blocosexclusivosmobile.GetCurrentPosition = window.blo
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 28/08/2023, 10:57:53
+ * @since 28/08/2023, 14:02:37
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.GetCurrentPosition.Example2Args = [];
@@ -21,7 +21,7 @@ window.blockly.js.blockly.blocosexclusivosmobile.GetCurrentPosition.Example2 = a
   this.cronapi.cordova.geolocation.getCurrentPosition(async function(sender_item) {
       item = sender_item;
     //
-    objeto = [String('Latitude: ') + String(this.cronapi.object.getProperty(item, 'coords.latitude')),String('Longitude: ') + String(this.cronapi.object.getProperty(item, 'coords.longitude')),String('Altitude: ') + String(this.cronapi.object.getProperty(item, 'coords.altitude')),String('Accuracy: ') + String(this.cronapi.object.getProperty(item, 'coords.accuracy')),String('AA: ') + String(this.cronapi.object.getProperty(item, 'coords.altitudeAccuracy')),String('Heading: ') + String(this.cronapi.object.getProperty(item, 'coords.heading')),String('Speed: ') + String(this.cronapi.object.getProperty(item, 'coords.speed')),String('Timestamp: ') + String(this.cronapi.object.getProperty(item, 'coords.timestamp'))].join('');
+    objeto = [String('Latitude: ') + String(this.cronapi.object.getProperty(item, 'coords.latitude')),String('\nLongitude: ') + String(this.cronapi.object.getProperty(item, 'coords.longitude')),String('\nAltitude: ') + String(this.cronapi.object.getProperty(item, 'coords.altitude')),String('\nAccuracy: ') + String(this.cronapi.object.getProperty(item, 'coords.accuracy')),String('\nAA: ') + String(this.cronapi.object.getProperty(item, 'coords.altitudeAccuracy')),String('\nHeading: ') + String(this.cronapi.object.getProperty(item, 'coords.heading')),String('\nSpeed: ') + String(this.cronapi.object.getProperty(item, 'coords.speed')),String('\nTimestamp: ') + String(this.cronapi.object.getProperty(item, 'timestamp'))].join('');
     //
     this.cronapi.screen.notify('success',objeto);
     //
@@ -40,7 +40,7 @@ window.blockly.js.blockly.blocosexclusivosmobile.GetCurrentPosition.Example2 = a
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 28/08/2023, 10:57:53
+ * @since 28/08/2023, 14:02:37
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.GetCurrentPosition.ExampleArgs = [];
