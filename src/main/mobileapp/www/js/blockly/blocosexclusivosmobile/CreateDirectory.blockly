@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><blockly audit="false" blocklyType="MOBILE" bpmnAble="false" formTarget="" functionCategory="" library="false" linkHelp="" multilayer="false" resourceType="JS" ruleDescription="CreateDirectory" ruleName="CreateDirectory" ruleSynchronous="false" ruleTimeout="" ruleType="I" showAsFunction="false" soap="false" swagger="false">
-  <metadata scale="1" scrollx="429.5000000000001" scrolly="-227.5" target="Anb:u5+^,0vLkL9QIqn5"/>
+  <metadata scale="1" scrollx="305.50000000000006" scrolly="-55.400000000000034" target="|-Qm2GWflhY|uK}hjLll"/>
   <block asynccall="false" colour="#995ba5" datasourcetype="" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-217" y="98">
     <field customattributes="" name="NAME">Example</field>
     <statement name="STACK">
@@ -53,6 +53,67 @@
             <field customattributes="" name="SELECT">error</field>
             <value name="MESSAGE">
               <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id=",PHra1?;g)5.6%[`VSt," origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                <field customattributes="" name="TEXT">Erro ao criar diretório!</field>
+              </shadow>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block asynccall="false" colour="#995ba5" datasourcetype="" id="|-Qm2GWflhY|uK}hjLll" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-217" y="98">
+    <field customattributes="" name="NAME">Example2</field>
+    <statement name="STACK">
+      <block asynccall="false" colour="#846a27" datasourcetype="" dependencyby="|-Qm2GWflhY|uK}hjLll" id="JFY94BPVqH3fG=/XtGvi" multilayer="false" namespace="cronapi.cordova.file.createDirectory" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3ECriar%20Diret%C3%B3rio%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EcreateDirectoryDescription%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Diret%C3%B3rio%20Pai%20:%20Texto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Nome%20do%20Diret%C3%B3rio%20:%20Texto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Sucesso%20:%20Envio%20de%20comandos%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Erro%20:%20Envio%20de%20comandos%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.cordova.file.createDirectory','cronapi.cordova.file.createDirectory')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+        <mutation name="{{cronapi.cordova.file.createDirectory}}" return-raw-type="undefined">
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Diretório Pai"/>
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Nome do Diretório"/>
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STATEMENTSENDER" name="Sucesso"/>
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STATEMENTSENDER" name="Erro"/>
+        </mutation>
+        <field customattributes="" name="VAR_SENDERARG2">item</field>
+        <field customattributes="" name="VAR_SENDERARG3">item</field>
+        <value name="ARG0">
+          <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="riBbHQO:93ho,!`)0h8E" origintype="text" output="true" tooltip="function () { [native code] }" type="text" xmlns="">
+            <field customattributes="" name="TEXT"/>
+          </shadow>
+          <block asynccall="false" colour="#846a27" datasourcetype="" dependencyby="|-Qm2GWflhY|uK}hjLll" id="-Z9@+%rulPGBIiIt]q{l" multilayer="false" namespace="cronapi.cordova.file.getDirectory" origintype="procedures_callreturn" output="true" returntype="ObjectType.STRING" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20Diret%C3%B3rio%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20diret%C3%B3rio%20no%20dispositivo%20m%C3%B3vel.%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Tipo%20:%20Inteiro%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Texto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.cordova.file.getDirectory','cronapi.cordova.file.getDirectory')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+            <mutation name="{{cronapi.cordova.file.getDirectory}}" return-raw-type="undefined">
+              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.LONG" name="Tipo"/>
+            </mutation>
+            <value name="ARG0">
+              <block asynccall="false" colour="#846a27" datasourcetype="" dependencyby="|-Qm2GWflhY|uK}hjLll" id="j{W!t1qG.yWt!SlLrZu8" origintype="util_dropdown" output="true" type="util_dropdown">
+                <mutation>
+                  <arg name="0" value="INTERNO"/>
+                  <arg name="1" value="EXTERNO"/>
+                </mutation>
+                <field customattributes="" name="SELECT">1</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <value name="ARG1">
+          <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="|-Qm2GWflhY|uK}hjLll" id="eO,q!?_[$Vh7h3ucf8*." origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field customattributes="" name="TEXT">NovoDir</field>
+          </shadow>
+        </value>
+        <statement name="ARG2">
+          <block asynccall="false" colour="#934848" datasourcetype="" dependencyby="|-Qm2GWflhY|uK}hjLll" id="XmTK=(1iYkh+^!E)XX^]" multilayer="true" namespace="cronapi.screen.notify" origintype="notify_type" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EExibe%20notifica%C3%A7%C3%A3o%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20que%20exibe%20notifica%C3%A7%C3%A3o%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Tipo%20da%20notifica%C3%A7%C3%A3o%20:%20Texto%3C/span%3E%3Cdiv%3E%20pode%20ser%20success,%20error,%20warning,%20info%20ou%20primary%3C/div%3E%3Cspan%3E%20-%20Mensagem%20:%20Texto%3C/span%3E%3Cdiv%3E%20Mensagem%20ou%20conte%C3%BAdo%20html%20a%20ser%20exibido%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.screen.notify','cronapi.screen.notify')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="notify_type">
+            <mutation name="{{cronapi.screen.notify}}" value="[object Object]"/>
+            <field customattributes="" name="SELECT">success</field>
+            <value name="MESSAGE">
+              <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="|-Qm2GWflhY|uK}hjLll" id=")8v%|%%#Dr6lUv,f),7^" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                <field customattributes="" name="TEXT">Diretório criado com sucesso!</field>
+              </shadow>
+            </value>
+          </block>
+        </statement>
+        <statement name="ARG3">
+          <block asynccall="false" colour="#934848" datasourcetype="" dependencyby="|-Qm2GWflhY|uK}hjLll" id="gOI7hm5H84pJP%s;Bjoc" multilayer="true" namespace="cronapi.screen.notify" origintype="notify_type" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EExibe%20notifica%C3%A7%C3%A3o%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20que%20exibe%20notifica%C3%A7%C3%A3o%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Tipo%20da%20notifica%C3%A7%C3%A3o%20:%20Texto%3C/span%3E%3Cdiv%3E%20pode%20ser%20success,%20error,%20warning,%20info%20ou%20primary%3C/div%3E%3Cspan%3E%20-%20Mensagem%20:%20Texto%3C/span%3E%3Cdiv%3E%20Mensagem%20ou%20conte%C3%BAdo%20html%20a%20ser%20exibido%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.screen.notify','cronapi.screen.notify')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="notify_type">
+            <mutation name="{{cronapi.screen.notify}}" value="[object Object]"/>
+            <field customattributes="" name="SELECT">error</field>
+            <value name="MESSAGE">
+              <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="|-Qm2GWflhY|uK}hjLll" id="`-7[8kTGhn8(Af?v6*ak" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
                 <field customattributes="" name="TEXT">Erro ao criar diretório!</field>
               </shadow>
             </value>

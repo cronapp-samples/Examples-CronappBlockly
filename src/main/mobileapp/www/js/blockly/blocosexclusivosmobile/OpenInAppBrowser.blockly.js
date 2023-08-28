@@ -11,7 +11,7 @@ window.blockly.js.blockly.blocosexclusivosmobile.OpenInAppBrowser = window.block
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 22/08/2023, 08:17:05
+ * @since 28/08/2023, 09:06:28
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.OpenInAppBrowser.ExampleArgs = [];
