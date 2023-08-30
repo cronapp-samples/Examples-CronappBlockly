@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><blockly audit="false" blocklyType="MOBILE" bpmnAble="false" formTarget="" functionCategory="" library="false" linkHelp="" multilayer="false" resourceType="JS" ruleDescription="Vibrate" ruleName="Vibrate" ruleSynchronous="false" ruleTimeout="" ruleType="I" showAsFunction="false" soap="false" swagger="false">
-  <metadata scale="1" scrollx="524.2999999999997" scrolly="-120.39999999999984" target="Anb:u5+^,0vLkL9QIqn5"/>
+  <metadata scale="1" scrollx="456.3" scrolly="-85.4" target="Anb:u5+^,0vLkL9QIqn5"/>
+  <block asynccall="false" colour="#995ba5" datasourcetype="" id="dy;]Apu1+T`b.2{Xh/J5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-352" y="128">
+    <field customattributes="" name="NAME">Example2</field>
+    <statement name="STACK">
+      <block asynccall="false" colour="#846a27" datasourcetype="" dependencyby="dy;]Apu1+T`b.2{Xh/J5" id="M(85#g632rU}PUQow%Ih" multilayer="false" namespace="cronapi.cordova.vibrate" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EVibrar%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20vibrar%20o%20dispositivo%20m%C3%B3vel.%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Milissegundos%20%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Parametro%20%C3%A9%20do%20tipo%20Inteiro%20ou%20uma%20Lista%20de%20Inteiros.%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.cordova.vibrate','cronapi.cordova.vibrate')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+        <mutation name="{{cronapi.cordova.vibrate}}" return-raw-type="undefined">
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.OBJECT" name="Milissegundos "/>
+        </mutation>
+        <value name="ARG0">
+          <block asynccall="false" colour="#5b67a5" datasourcetype="" dependencyby="dy;]Apu1+T`b.2{Xh/J5" id="`?U[c?K{2g6@tZCQY)k`" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+            <field customattributes="" name="NUM">3000</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
   <block asynccall="false" colour="#995ba5" datasourcetype="" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-350" y="130">
     <field customattributes="" name="NAME">Example</field>
     <statement name="STACK">
-      <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="Q$j~D@fQ,F9M+9Gm4n-a" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
-        <field customattributes="" name="VAR">padrao</field>
-        <value name="VALUE">
+      <block asynccall="false" colour="#846a27" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="9c5Op`8!ec#cS:yI@bf]" multilayer="false" namespace="cronapi.cordova.vibrate" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EVibrar%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20vibrar%20o%20dispositivo%20m%C3%B3vel.%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Milissegundos%20%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Parametro%20%C3%A9%20do%20tipo%20Inteiro%20ou%20uma%20Lista%20de%20Inteiros.%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.cordova.vibrate','cronapi.cordova.vibrate')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+        <mutation name="{{cronapi.cordova.vibrate}}" return-raw-type="undefined">
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.OBJECT" name="Milissegundos "/>
+        </mutation>
+        <value name="ARG0">
           <block asynccall="false" colour="#745ba5" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="N*RvFO)zSo|j:q*es`1J" origintype="lists_create_with" output="true" tooltip="Cria uma lista com a quantidade de itens informada." type="lists_create_with">
             <mutation items="5"/>
             <value name="ADD0">
@@ -35,19 +52,15 @@
             </value>
           </block>
         </value>
-        <next>
-          <block asynccall="false" colour="#846a27" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="9c5Op`8!ec#cS:yI@bf]" multilayer="false" namespace="cronapi.cordova.vibrate" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EVibrar%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20vibrar%20o%20dispositivo%20m%C3%B3vel.%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Milissegundos%20%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Parametro%20%C3%A9%20do%20tipo%20Inteiro%20ou%20uma%20Lista%20de%20Inteiros.%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.cordova.vibrate','cronapi.cordova.vibrate')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
-            <mutation name="{{cronapi.cordova.vibrate}}" return-raw-type="undefined">
-              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.OBJECT" name="Milissegundos "/>
-            </mutation>
-            <value name="ARG0">
-              <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id=")-V.Q#+,xl9!U`{V$}F]" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
-                <field customattributes="" name="VAR">padrao</field>
-              </block>
-            </value>
-          </block>
-        </next>
       </block>
     </statement>
+  </block>
+  <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="dy;]Apu1+T`b.2{Xh/J5" id="Q$j~D@fQ,F9M+9Gm4n-a" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set" x="248" y="458">
+    <field customattributes="" name="VAR">padrao</field>
+    <value name="VALUE">
+      <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id=")-V.Q#+,xl9!U`{V$}F]" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+        <field customattributes="" name="VAR">padrao</field>
+      </block>
+    </value>
   </block>
 </blockly>
