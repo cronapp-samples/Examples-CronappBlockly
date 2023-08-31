@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><blockly audit="false" blocklyType="MOBILE" bpmnAble="false" formTarget="" functionCategory="" library="false" linkHelp="" multilayer="false" resourceType="JS" ruleDescription="CreateDirectory" ruleName="CreateDirectory" ruleSynchronous="false" ruleTimeout="" ruleType="I" showAsFunction="false" soap="false" swagger="false">
-  <metadata scale="1" scrollx="303.4999999999998" scrolly="-253.39999999999998" target="|-Qm2GWflhY|uK}hjLll"/>
+  <metadata scale="1" scrollx="303.4999999999998" scrolly="-153.39999999999998" target="|-Qm2GWflhY|uK}hjLll"/>
   <block asynccall="false" colour="#995ba5" datasourcetype="" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-217" y="98">
     <field customattributes="" name="NAME">Example</field>
     <statement name="STACK">
@@ -87,7 +87,7 @@
                   <arg name="0" value="INTERNO"/>
                   <arg name="1" value="EXTERNO"/>
                 </mutation>
-                <field customattributes="" name="SELECT">1</field>
+                <field customattributes="" name="SELECT">0</field>
               </block>
             </value>
           </block>
