@@ -13,7 +13,7 @@ document.write("<script charset='UTF-8' src='js/blockly/auth/ChangePassword.bloc
 document.write("<script charset='UTF-8' src='js/blockly/auth/UserControl.blockly.js?1692987434870'></script>");
 document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/SetStorageItem.blockly.js?1693245149806'></script>");
 document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/GetDirectory.blockly.js?1692987435038'></script>");
-document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/CreateFile.blockly.js?1693494061024'></script>");
+document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/CreateFile.blockly.js?1693499949869'></script>");
 document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/RemoveFile.blockly.js?1693319478908'></script>");
 document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/VerifyConnection.blockly.js?1693494674966'></script>");
 document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/Vibrate.blockly.js?1693494801491'></script>");
@@ -23,7 +23,7 @@ document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/G
 document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/GetConnection.blockly.js?1692987434938'></script>");
 document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/GetDeviceInfo.blockly.js?1692987434898'></script>");
 document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/CreateDirectory.blockly.js?1693493981110'></script>");
-document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/ReadFile.blockly.js?1693319613570'></script>");
+document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/ReadFile.blockly.js?1693500784966'></script>");
 document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/ClearWatchPosition.blockly.js?1692987435078'></script>");
 document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/OpenInAppBrowser.blockly.js?1693224383495'></script>");
 document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/GetStorageItem.blockly.js?1693250028502'></script>");

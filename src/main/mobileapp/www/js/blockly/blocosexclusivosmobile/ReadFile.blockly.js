@@ -5,17 +5,17 @@ window.blockly.js.blockly.blocosexclusivosmobile = window.blockly.js.blockly.blo
 window.blockly.js.blockly.blocosexclusivosmobile.ReadFile = window.blockly.js.blockly.blocosexclusivosmobile.ReadFile || {};
 
 /**
- * @function Example
+ * @function Text
  *
  *
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 31/08/2023, 13:40:06
+ * @since 31/08/2023, 13:53:06
  *
  */
-window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.ExampleArgs = [];
-window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.Example = async function() {
+window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.Text2Args = [];
+window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.Text2 = async function() {
  var item;
   //
   this.cronapi.cordova.file.readFile(String(this.cronapi.cordova.file.getDirectory('0')) + String('meuArquivo.txt'), async function(sender_item) {
@@ -30,17 +30,17 @@ window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.Example = async functi
 }
 
 /**
- * @function Example2
+ * @function Arraybuffer
  *
  *
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 31/08/2023, 13:40:06
+ * @since 31/08/2023, 13:53:06
  *
  */
-window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.Example2Args = [];
-window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.Example2 = async function() {
+window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.ArraybufferArgs = [];
+window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.Arraybuffer = async function() {
  var item;
   //
   this.cronapi.cordova.file.readFile(String(this.cronapi.cordova.file.getDirectory('0')) + String('meuArquivo.txt'), async function(sender_item) {
@@ -55,17 +55,17 @@ window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.Example2 = async funct
 }
 
 /**
- * @function Example3
+ * @function BinaryString
  *
  *
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 31/08/2023, 13:40:06
+ * @since 31/08/2023, 13:53:06
  *
  */
-window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.Example3Args = [];
-window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.Example3 = async function() {
+window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.BinaryStringArgs = [];
+window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.BinaryString = async function() {
  var item;
   //
   this.cronapi.cordova.file.readFile(String(this.cronapi.cordova.file.getDirectory('0')) + String('meuArquivo.txt'), async function(sender_item) {
@@ -80,17 +80,17 @@ window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.Example3 = async funct
 }
 
 /**
- * @function Example4
+ * @function DataUrl
  *
  *
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 31/08/2023, 13:40:06
+ * @since 31/08/2023, 13:53:06
  *
  */
-window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.Example4Args = [];
-window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.Example4 = async function() {
+window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.DataUrlArgs = [];
+window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.DataUrl = async function() {
  var item;
   //
   this.cronapi.cordova.file.readFile(String(this.cronapi.cordova.file.getDirectory('0')) + String('meuArquivo.txt'), async function(sender_item) {
@@ -105,42 +105,17 @@ window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.Example4 = async funct
 }
 
 /**
- * @function Example5
+ * @function Teste
  *
  *
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 31/08/2023, 13:40:06
+ * @since 31/08/2023, 13:53:06
  *
  */
-window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.Example5Args = [];
-window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.Example5 = async function() {
- var item;
-  //
-  this.cronapi.cordova.file.readFile(String(this.cronapi.cordova.file.getDirectory('0')) + String('meuArquivo.txt'), async function(sender_item) {
-      item = sender_item;
-    //
-    this.cronapi.screen.notify('success',String('Arquivo lido com sucesso!\n') + String(item));
-  }.bind(this), async function(sender_item) {
-      item = sender_item;
-    //
-    this.cronapi.screen.notify('error',String('Erro ao ler arquivo!') + String(item));
-  }.bind(this), 'DATAURL');
-}
-
-/**
- * @function Example6
- *
- *
- *
- *
- * @author Laila Maria Vieira Souza
- * @since 31/08/2023, 13:40:06
- *
- */
-window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.Example6Args = [];
-window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.Example6 = async function() {
+window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.TesteArgs = [];
+window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.Teste = async function() {
  var item;
   //
   this.cronapi.cordova.file.readFile(String(this.cronapi.cordova.file.getDirectory('0')) + String('NovoDir/meuArquivo.txt'), async function(sender_item) {
