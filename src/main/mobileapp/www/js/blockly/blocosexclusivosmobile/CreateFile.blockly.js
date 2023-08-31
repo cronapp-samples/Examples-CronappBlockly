@@ -11,7 +11,7 @@ window.blockly.js.blockly.blocosexclusivosmobile.CreateFile = window.blockly.js.
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 31/08/2023, 12:01:02
+ * @since 31/08/2023, 13:39:11
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.CreateFile.ExampleArgs = [];
@@ -36,7 +36,7 @@ window.blockly.js.blockly.blocosexclusivosmobile.CreateFile.Example = async func
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 31/08/2023, 12:01:02
+ * @since 31/08/2023, 13:39:11
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.CreateFile.Example2Args = [];
@@ -52,14 +52,4 @@ window.blockly.js.blockly.blocosexclusivosmobile.CreateFile.Example2 = async fun
     //
     this.cronapi.screen.notify('error',String('Erro! \n') + String(item));
   }.bind(this));
-  //
-  this.cronapi.cordova.file.readFile(String(this.cronapi.cordova.file.getDirectory('0')) + String('NovoDir/meuArquivo.txt'), async function(sender_item) {
-      item = sender_item;
-    //
-    this.cronapi.screen.notify('success',String('Sucesso! \n') + String(item));
-  }.bind(this), async function(sender_item) {
-      item = sender_item;
-    //
-    this.cronapi.screen.notify('error',String('Erro!\n') + String(item));
-  }.bind(this), 'TEXT');
 }

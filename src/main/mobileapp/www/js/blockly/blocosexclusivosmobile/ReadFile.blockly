@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><blockly audit="false" blocklyType="MOBILE" bpmnAble="false" formTarget="" functionCategory="" library="false" linkHelp="" multilayer="false" resourceType="JS" ruleDescription="ReadFile" ruleName="ReadFile" ruleSynchronous="false" ruleTimeout="" ruleType="I" showAsFunction="false" soap="false" swagger="false">
-  <metadata scale="1" scrollx="98.2999999999999" scrolly="-57.69999999999999" target="Anb:u5+^,0vLkL9QIqn5"/>
+  <metadata scale="1" scrollx="78.5" scrolly="-1778.4000000000005" target="7Ij]rx?lZW+Xc.?$`u6["/>
   <block asynccall="false" colour="#995ba5" datasourcetype="" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="8" y="113">
     <field customattributes="" name="NAME">Example</field>
     <statement name="STACK">
@@ -515,6 +515,110 @@
               <arg name="DATAURL" value="DATAURL"/>
             </mutation>
             <field customattributes="" name="SELECT">DATAURL</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block asynccall="false" colour="#995ba5" datasourcetype="" id="7Ij]rx?lZW+Xc.?$`u6[" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="8" y="1823">
+    <field customattributes="" name="NAME">Example6</field>
+    <statement name="STACK">
+      <block asynccall="false" colour="#846a27" datasourcetype="" dependencyby="7Ij]rx?lZW+Xc.?$`u6[" id="{;Gq~YYr5k1,OTim6=n0" multilayer="false" namespace="cronapi.cordova.file.readFile" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3ELer%20Arquivo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20ler%20um%20arquivo%20no%20dispositivo%20m%C3%B3vel.%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Nome%20do%20Arquivo%20:%20Texto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Sucesso%20:%20Envio%20de%20comandos%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Erro%20:%20Envio%20de%20comandos%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Tipo%20de%20Retorno%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.cordova.file.readFile','cronapi.cordova.file.readFile')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+        <mutation name="{{cronapi.cordova.file.readFile}}" return-raw-type="undefined">
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Nome do Arquivo"/>
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STATEMENTSENDER" name="Sucesso"/>
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STATEMENTSENDER" name="Erro"/>
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Tipo de Retorno"/>
+        </mutation>
+        <field customattributes="" name="VAR_SENDERARG1">item</field>
+        <field customattributes="" name="VAR_SENDERARG2">item</field>
+        <value name="ARG0">
+          <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="Z/nX~[Z~CO@gs}usT48M" id="5@GS;N0CnK$IT42q.$5f" origintype="text" output="true" tooltip="function () { [native code] }" type="text" xmlns="">
+            <field customattributes="" name="TEXT">/storage/emulated/0/Android/data/meuArquivo.txt</field>
+          </shadow>
+          <block asynccall="false" colour="#5ba58c" datasourcetype="" dependencyby="7Ij]rx?lZW+Xc.?$`u6[" id="*%c5m93/KlB?}^~^GD8w" origintype="text_join" output="true" tooltip="Criar um pedaço de texto juntando qualquer número de itens." type="text_join">
+            <mutation items="2"/>
+            <value name="ADD0">
+              <block asynccall="false" colour="#846a27" datasourcetype="" dependencyby="7Ij]rx?lZW+Xc.?$`u6[" id="{7r1MC4*eT[HDtD2MhcJ" multilayer="false" namespace="cronapi.cordova.file.getDirectory" origintype="procedures_callreturn" output="true" returntype="ObjectType.STRING" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20Diret%C3%B3rio%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20diret%C3%B3rio%20no%20dispositivo%20m%C3%B3vel.%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Tipo%20:%20Inteiro%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Texto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.cordova.file.getDirectory','cronapi.cordova.file.getDirectory')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+                <mutation name="{{cronapi.cordova.file.getDirectory}}" return-raw-type="undefined">
+                  <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.LONG" name="Tipo"/>
+                </mutation>
+                <value name="ARG0">
+                  <block asynccall="false" colour="#846a27" datasourcetype="" dependencyby="7Ij]rx?lZW+Xc.?$`u6[" id="^`V@k/SgNUg#;gUTl,Ch" origintype="util_dropdown" output="true" type="util_dropdown">
+                    <mutation>
+                      <arg name="0" value="INTERNO"/>
+                      <arg name="1" value="EXTERNO"/>
+                    </mutation>
+                    <field customattributes="" name="SELECT">0</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="ADD1">
+              <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="7Ij]rx?lZW+Xc.?$`u6[" id="OcNLg]fX)_/N)-]$R(p," origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                <field customattributes="" name="TEXT">NovoDir/meuArquivo.txt</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="ARG1">
+          <block asynccall="false" colour="#934848" datasourcetype="" dependencyby="7Ij]rx?lZW+Xc.?$`u6[" id="1n[G75:W((s5~Tjx+Z,_" multilayer="true" namespace="cronapi.screen.notify" origintype="notify_type" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EExibe%20notifica%C3%A7%C3%A3o%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20que%20exibe%20notifica%C3%A7%C3%A3o%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Tipo%20da%20notifica%C3%A7%C3%A3o%20:%20Texto%3C/span%3E%3Cdiv%3E%20pode%20ser%20success,%20error,%20warning,%20info%20ou%20primary%3C/div%3E%3Cspan%3E%20-%20Mensagem%20:%20Texto%3C/span%3E%3Cdiv%3E%20Mensagem%20ou%20conte%C3%BAdo%20html%20a%20ser%20exibido%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.screen.notify','cronapi.screen.notify')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="notify_type">
+            <mutation name="{{cronapi.screen.notify}}" value="[object Object]"/>
+            <field customattributes="" name="SELECT">success</field>
+            <value name="MESSAGE">
+              <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="QgOH9W;3d^r+J]m+~p(H" id="a?a,DjCoSYiL=Kbr8H[Y" origintype="text" output="true" tooltip="function () { [native code] }" type="text" xmlns="">
+                <field customattributes="" name="TEXT">Arquivo lido com sucesso!</field>
+              </shadow>
+              <block asynccall="false" colour="#5ba58c" datasourcetype="" dependencyby="7Ij]rx?lZW+Xc.?$`u6[" id="3KCf(9(*I2^(HD+FXK5," origintype="text_join" output="true" tooltip="Criar um pedaço de texto juntando qualquer número de itens." type="text_join">
+                <mutation items="2"/>
+                <value name="ADD0">
+                  <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="7Ij]rx?lZW+Xc.?$`u6[" id="{hrkKbilL~]ksAQe9x40" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                    <field customattributes="" name="TEXT">Arquivo lido com sucesso!
+</field>
+                  </block>
+                </value>
+                <value name="ADD1">
+                  <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="7Ij]rx?lZW+Xc.?$`u6[" id="]67WEjSEEc6iJCGu}9f*" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                    <field customattributes="" name="VAR">item</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <statement name="ARG2">
+          <block asynccall="false" colour="#934848" datasourcetype="" dependencyby="7Ij]rx?lZW+Xc.?$`u6[" id="SL;9LJ{z.W:hk)=?4lhk" multilayer="true" namespace="cronapi.screen.notify" origintype="notify_type" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EExibe%20notifica%C3%A7%C3%A3o%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20que%20exibe%20notifica%C3%A7%C3%A3o%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Tipo%20da%20notifica%C3%A7%C3%A3o%20:%20Texto%3C/span%3E%3Cdiv%3E%20pode%20ser%20success,%20error,%20warning,%20info%20ou%20primary%3C/div%3E%3Cspan%3E%20-%20Mensagem%20:%20Texto%3C/span%3E%3Cdiv%3E%20Mensagem%20ou%20conte%C3%BAdo%20html%20a%20ser%20exibido%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.screen.notify','cronapi.screen.notify')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="notify_type">
+            <mutation name="{{cronapi.screen.notify}}" value="[object Object]"/>
+            <field customattributes="" name="SELECT">error</field>
+            <value name="MESSAGE">
+              <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="QgOH9W;3d^r+J]m+~p(H" id="9BcebK%{u5AuL|}lHqGa" origintype="text" output="true" tooltip="function () { [native code] }" type="text" xmlns="">
+                <field customattributes="" name="TEXT">Erro ao ler arquivo!</field>
+              </shadow>
+              <block asynccall="false" colour="#5ba58c" datasourcetype="" dependencyby="7Ij]rx?lZW+Xc.?$`u6[" id="4J~ofeG014LY[.RBTe*w" origintype="text_join" output="true" tooltip="Criar um pedaço de texto juntando qualquer número de itens." type="text_join">
+                <mutation items="2"/>
+                <value name="ADD0">
+                  <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="7Ij]rx?lZW+Xc.?$`u6[" id="9i)RKk-.rZ,}3G*zVXlL" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                    <field customattributes="" name="TEXT">Erro ao ler arquivo!</field>
+                  </block>
+                </value>
+                <value name="ADD1">
+                  <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="7Ij]rx?lZW+Xc.?$`u6[" id="+*9,Ej!tMDvjba2o_*}C" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                    <field customattributes="" name="VAR">item</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <value name="ARG3">
+          <block asynccall="false" colour="#846a27" datasourcetype="" dependencyby="7Ij]rx?lZW+Xc.?$`u6[" id="DXOhj2q|joHhiz.*}97t" origintype="util_dropdown" output="true" type="util_dropdown">
+            <mutation>
+              <arg name="ARRAYBUFFER" value="ARRAYBUFFER"/>
+              <arg name="TEXT" value="TEXT"/>
+              <arg name="BINARYSTRING" value="BINARYSTRING"/>
+              <arg name="DATAURL" value="DATAURL"/>
+            </mutation>
+            <field customattributes="" name="SELECT">TEXT</field>
           </block>
         </value>
       </block>
