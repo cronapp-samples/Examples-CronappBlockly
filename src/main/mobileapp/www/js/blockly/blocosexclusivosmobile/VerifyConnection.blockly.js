@@ -5,17 +5,17 @@ window.blockly.js.blockly.blocosexclusivosmobile = window.blockly.js.blockly.blo
 window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection = window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection || {};
 
 /**
- * @function Example8
+ * @function NehnumaConexao
  *
  *
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 28/08/2023, 10:39:46
+ * @since 31/08/2023, 12:11:16
  *
  */
-window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.Example8Args = [];
-window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.Example8 = async function() {
+window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.NehnumaConexaoArgs = [];
+window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.NehnumaConexao = async function() {
  var status;
   //
   status2 = this.cronapi.cordova.connection.verifyConnection('Connection.NONE');
@@ -24,112 +24,36 @@ window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.Example8 = asy
 }
 
 /**
- * @function Example
+ * @function ConexaoDesconhecida
  *
  *
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 28/08/2023, 10:39:46
+ * @since 31/08/2023, 12:11:16
  *
  */
-window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.ExampleArgs = [];
-window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.Example = async function() {
+window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.ConexaoDesconhecidaArgs = [];
+window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.ConexaoDesconhecida = async function() {
  var status;
   //
-  status2 = this.cronapi.cordova.connection.verifyConnection('Connection.WIFI');
-  //
-  this.cronapi.screen.notify('success',String('Conexão WiFi: ') + String(status2));
-}
-
-/**
- * @function Example2
- *
- *
- *
- *
- * @author Laila Maria Vieira Souza
- * @since 28/08/2023, 10:39:46
- *
- */
-window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.Example2Args = [];
-window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.Example2 = async function() {
- var status;
-  //
-  status2 = this.cronapi.cordova.connection.verifyConnection('Connection.CELL_4G');
+  status2 = this.cronapi.cordova.connection.verifyConnection('Connection.UNKNOWN');
   //
   this.cronapi.screen.notify('success',String('Status da Rede: ') + String(status2));
 }
 
 /**
- * @function Example3
+ * @function ConecaoEthernet
  *
  *
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 28/08/2023, 10:39:46
+ * @since 31/08/2023, 12:11:16
  *
  */
-window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.Example3Args = [];
-window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.Example3 = async function() {
- var status;
-  //
-  status2 = this.cronapi.cordova.connection.verifyConnection('Connection.CELL');
-  //
-  this.cronapi.screen.notify('success',String('Status da Rede: ') + String(status2));
-}
-
-/**
- * @function Example4
- *
- *
- *
- *
- * @author Laila Maria Vieira Souza
- * @since 28/08/2023, 10:39:46
- *
- */
-window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.Example4Args = [];
-window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.Example4 = async function() {
- var status;
-  //
-  status2 = this.cronapi.cordova.connection.verifyConnection('Connection.CELL_2G');
-  //
-  this.cronapi.screen.notify('success',String('Status da Rede: ') + String(status2));
-}
-
-/**
- * @function Example5
- *
- *
- *
- *
- * @author Laila Maria Vieira Souza
- * @since 28/08/2023, 10:39:46
- *
- */
-window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.Example5Args = [];
-window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.Example5 = async function() {
- var status;
-  //
-  status2 = this.cronapi.cordova.connection.verifyConnection('Connection.CELL_3G');
-  //
-  this.cronapi.screen.notify('success',String('Status da Rede: ') + String(status2));
-}
-
-/**
- * @function Example6
- *
- *
- *
- *
- * @author Laila Maria Vieira Souza
- * @since 28/08/2023, 10:39:46
- *
- */
-window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.Example6Args = [];
-window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.Example6 = async function() {
+window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.ConecaoEthernetArgs = [];
+window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.ConecaoEthernet = async function() {
  var status;
   //
   status2 = this.cronapi.cordova.connection.verifyConnection('Connection.ETHERNET');
@@ -138,20 +62,96 @@ window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.Example6 = asy
 }
 
 /**
- * @function Example7
+ * @function ConexaoWiFi
  *
  *
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 28/08/2023, 10:39:46
+ * @since 31/08/2023, 12:11:16
  *
  */
-window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.Example7Args = [];
-window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.Example7 = async function() {
+window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.ConexaoWiFiArgs = [];
+window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.ConexaoWiFi = async function() {
  var status;
   //
-  status2 = this.cronapi.cordova.connection.verifyConnection('Connection.UNKNOWN');
+  status2 = this.cronapi.cordova.connection.verifyConnection('Connection.WIFI');
+  //
+  this.cronapi.screen.notify('success',String('Status da Rede: ') + String(status2));
+}
+
+/**
+ * @function Conexao2G
+ *
+ *
+ *
+ *
+ * @author Laila Maria Vieira Souza
+ * @since 31/08/2023, 12:11:16
+ *
+ */
+window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.Conexao2GArgs = [];
+window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.Conexao2G = async function() {
+ var status;
+  //
+  status2 = this.cronapi.cordova.connection.verifyConnection('Connection.CELL_2G');
+  //
+  this.cronapi.screen.notify('success',String('Status da Rede: ') + String(status2));
+}
+
+/**
+ * @function Conexao3G
+ *
+ *
+ *
+ *
+ * @author Laila Maria Vieira Souza
+ * @since 31/08/2023, 12:11:16
+ *
+ */
+window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.Conexao3GArgs = [];
+window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.Conexao3G = async function() {
+ var status;
+  //
+  status2 = this.cronapi.cordova.connection.verifyConnection('Connection.CELL_3G');
+  //
+  this.cronapi.screen.notify('success',String('Status da Rede: ') + String(status2));
+}
+
+/**
+ * @function Conexao4G
+ *
+ *
+ *
+ *
+ * @author Laila Maria Vieira Souza
+ * @since 31/08/2023, 12:11:16
+ *
+ */
+window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.Conexao4GArgs = [];
+window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.Conexao4G = async function() {
+ var status;
+  //
+  status2 = this.cronapi.cordova.connection.verifyConnection('Connection.CELL_4G');
+  //
+  this.cronapi.screen.notify('success',String('Status da Rede: ') + String(status2));
+}
+
+/**
+ * @function ConexaoGenerica
+ *
+ *
+ *
+ *
+ * @author Laila Maria Vieira Souza
+ * @since 31/08/2023, 12:11:16
+ *
+ */
+window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.ConexaoGenericaArgs = [];
+window.blockly.js.blockly.blocosexclusivosmobile.VerifyConnection.ConexaoGenerica = async function() {
+ var status;
+  //
+  status2 = this.cronapi.cordova.connection.verifyConnection('Connection.CELL');
   //
   this.cronapi.screen.notify('success',String('Status da Rede: ') + String(status2));
 }

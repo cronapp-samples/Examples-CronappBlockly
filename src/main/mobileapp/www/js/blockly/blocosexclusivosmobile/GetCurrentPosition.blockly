@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><blockly audit="false" blocklyType="MOBILE" bpmnAble="false" formTarget="" functionCategory="" library="false" linkHelp="" multilayer="false" resourceType="JS" ruleDescription="GetCurrentPosition" ruleName="GetCurrentPosition" ruleSynchronous="false" ruleTimeout="" ruleType="I" showAsFunction="false" soap="false" swagger="false">
-  <metadata scale="1" scrollx="397.5" scrolly="-143.39999999999995" target="0DP9/I!H/2MTPk!|BAr;"/>
+  <metadata scale="1" scrollx="393.5" scrolly="-143.4" target="0DP9/I!H/2MTPk!|BAr;"/>
   <block asynccall="false" colour="#995ba5" datasourcetype="" id="9cBc0`RoV^}iSzu:3u,N" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-311" y="188">
     <field customattributes="" name="NAME">Example2</field>
     <statement name="STACK">
@@ -313,7 +313,8 @@ Timestamp: </field>
                 <mutation items="2"/>
                 <value name="ADD0">
                   <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="0DP9/I!H/2MTPk!|BAr;" id="`K/{B1pM}X%=WzU7Eyc3" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
-                    <field customattributes="" name="TEXT">Sucesso! </field>
+                    <field customattributes="" name="TEXT">Sucesso! 
+</field>
                   </block>
                 </value>
                 <value name="ADD1">
@@ -337,7 +338,8 @@ Timestamp: </field>
                 <mutation items="2"/>
                 <value name="ADD0">
                   <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="0DP9/I!H/2MTPk!|BAr;" id="G~6*N(H+uX3*dJKWn]qz" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
-                    <field customattributes="" name="TEXT">Erro! </field>
+                    <field customattributes="" name="TEXT">Erro! 
+</field>
                   </block>
                 </value>
                 <value name="ADD1">

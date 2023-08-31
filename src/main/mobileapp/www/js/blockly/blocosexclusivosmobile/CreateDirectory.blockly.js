@@ -11,7 +11,7 @@ window.blockly.js.blockly.blocosexclusivosmobile.CreateDirectory = window.blockl
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 31/08/2023, 09:12:37
+ * @since 31/08/2023, 11:59:42
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.CreateDirectory.ExampleArgs = [];
@@ -21,35 +21,10 @@ window.blockly.js.blockly.blocosexclusivosmobile.CreateDirectory.Example = async
   this.cronapi.cordova.file.createDirectory(this.cronapi.cordova.file.getDirectory('0'), 'NovoDir', async function(sender_item) {
       item = sender_item;
     //
-    this.cronapi.screen.notify('success','Diretório criado com sucesso!');
+    this.cronapi.screen.notify('success',String('Diretório criado com sucesso!\n') + String(item));
   }.bind(this), async function(sender_item) {
       item = sender_item;
     //
-    this.cronapi.screen.notify('error','Erro ao criar diretório!');
-  }.bind(this));
-}
-
-/**
- * @function Example2
- *
- *
- *
- *
- * @author Laila Maria Vieira Souza
- * @since 31/08/2023, 09:12:37
- *
- */
-window.blockly.js.blockly.blocosexclusivosmobile.CreateDirectory.Example2Args = [];
-window.blockly.js.blockly.blocosexclusivosmobile.CreateDirectory.Example2 = async function() {
- var item;
-  //
-  this.cronapi.cordova.file.createDirectory(this.cronapi.cordova.file.getDirectory('0'), 'NovoDir', async function(sender_item) {
-      item = sender_item;
-    //
-    this.cronapi.screen.notify('success',String('Sucesso! ') + String(item));
-  }.bind(this), async function(sender_item) {
-      item = sender_item;
-    //
-    this.cronapi.screen.notify('error',String('Erro! ') + String(item));
+    this.cronapi.screen.notify('error',String('Erro ao criar diretório!\n') + String(item));
   }.bind(this));
 }

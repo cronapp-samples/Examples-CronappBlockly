@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><blockly audit="false" blocklyType="MOBILE" bpmnAble="false" formTarget="" functionCategory="" library="false" linkHelp="" multilayer="false" resourceType="JS" ruleDescription="VerifyConnection" ruleName="VerifyConnection" ruleSynchronous="false" ruleTimeout="" ruleType="I" showAsFunction="false" soap="false" swagger="false">
-  <metadata scale="1" scrollx="86.49999999999977" scrolly="44.59999999999994" target=",4;{!Ncg,]-Vo|@si05,"/>
+  <metadata scale="1" scrollx="433.50000000000006" scrolly="-110.4000000000002" target="Anb:u5+^,0vLkL9QIqn5"/>
   <block asynccall="false" colour="#995ba5" datasourcetype="" id=",4;{!Ncg,]-Vo|@si05," origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="0" y="0">
-    <field customattributes="" name="NAME">Example8</field>
+    <field customattributes="" name="NAME">NehnumaConexao</field>
     <statement name="STACK">
       <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby=",4;{!Ncg,]-Vo|@si05," id="sTlTgDqwhS-J^dy*zXJ4" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
         <field customattributes="" name="VAR">status</field>
@@ -55,7 +55,7 @@
     </statement>
   </block>
   <block asynccall="false" colour="#995ba5" datasourcetype="" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-347" y="155">
-    <field customattributes="" name="NAME">Example</field>
+    <field customattributes="" name="NAME">ConexaoDesconhecida</field>
     <statement name="STACK">
       <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="*khV8l9[^=l5lWi9.Y/E" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
         <field customattributes="" name="VAR">status</field>
@@ -76,7 +76,7 @@
                   <arg name="Connection.CELL" value="Conexão celular genérico"/>
                   <arg name="Connection.NONE" value="Nenhuma conexão de rede"/>
                 </mutation>
-                <field customattributes="" name="SELECT">Connection.WIFI</field>
+                <field customattributes="" name="SELECT">Connection.UNKNOWN</field>
               </block>
             </value>
           </block>
@@ -93,7 +93,7 @@
                 <mutation items="2"/>
                 <value name="ADD0">
                   <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="oy}G/Ncvw{5y*u0TK!:R" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
-                    <field customattributes="" name="TEXT">Conexão WiFi: </field>
+                    <field customattributes="" name="TEXT">Status da Rede: </field>
                   </block>
                 </value>
                 <value name="ADD1">
@@ -109,7 +109,7 @@
     </statement>
   </block>
   <block asynccall="false" colour="#995ba5" datasourcetype="" id="uJ!IF:cwY.GXSK/Y{jk@" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-347" y="155">
-    <field customattributes="" name="NAME">Example2</field>
+    <field customattributes="" name="NAME">ConecaoEthernet</field>
     <statement name="STACK">
       <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="uJ!IF:cwY.GXSK/Y{jk@" id="^l/u)ys(;%_e!$LK4?=I" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
         <field customattributes="" name="VAR">status</field>
@@ -130,7 +130,7 @@
                   <arg name="Connection.CELL" value="Conexão celular genérico"/>
                   <arg name="Connection.NONE" value="Nenhuma conexão de rede"/>
                 </mutation>
-                <field customattributes="" name="SELECT">Connection.CELL_4G</field>
+                <field customattributes="" name="SELECT">Connection.ETHERNET</field>
               </block>
             </value>
           </block>
@@ -163,7 +163,7 @@
     </statement>
   </block>
   <block asynccall="false" colour="#995ba5" datasourcetype="" id="1Ll4@Ci_`Mc#Q]P2u?b[" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-327" y="240">
-    <field customattributes="" name="NAME">Example3</field>
+    <field customattributes="" name="NAME">ConexaoWiFi</field>
     <statement name="STACK">
       <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="1Ll4@Ci_`Mc#Q]P2u?b[" id="5Rc}jwATqTZTBeEwIb~]" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
         <field customattributes="" name="VAR">status</field>
@@ -184,7 +184,7 @@
                   <arg name="Connection.CELL" value="Conexão celular genérico"/>
                   <arg name="Connection.NONE" value="Nenhuma conexão de rede"/>
                 </mutation>
-                <field customattributes="" name="SELECT">Connection.CELL</field>
+                <field customattributes="" name="SELECT">Connection.WIFI</field>
               </block>
             </value>
           </block>
@@ -216,8 +216,8 @@
       </block>
     </statement>
   </block>
-  <block asynccall="false" colour="#995ba5" datasourcetype="" id="hRH_ZyibPec]zt%Xw-GQ" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-292" y="278">
-    <field customattributes="" name="NAME">Example4</field>
+  <block asynccall="false" colour="#995ba5" datasourcetype="" id="hRH_ZyibPec]zt%Xw-GQ" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-286" y="294">
+    <field customattributes="" name="NAME">Conexao2G</field>
     <statement name="STACK">
       <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="hRH_ZyibPec]zt%Xw-GQ" id="+_(n$B?X2=NSE=d{%r}o" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
         <field customattributes="" name="VAR">status</field>
@@ -271,7 +271,7 @@
     </statement>
   </block>
   <block asynccall="false" colour="#995ba5" datasourcetype="" id="+5i6$Ngzq0*vEK$7~3WX" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-307" y="325">
-    <field customattributes="" name="NAME">Example5</field>
+    <field customattributes="" name="NAME">Conexao3G</field>
     <statement name="STACK">
       <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="+5i6$Ngzq0*vEK$7~3WX" id="(yKNp!,vSQmE(bzw`X+5" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
         <field customattributes="" name="VAR">status</field>
@@ -325,7 +325,7 @@
     </statement>
   </block>
   <block asynccall="false" colour="#995ba5" datasourcetype="" id="e@0D5VPCIF34C@3CZPc[" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-307" y="325">
-    <field customattributes="" name="NAME">Example6</field>
+    <field customattributes="" name="NAME">Conexao4G</field>
     <statement name="STACK">
       <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="e@0D5VPCIF34C@3CZPc[" id="Lhu/`Y0])R%.)Y_+A91_" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
         <field customattributes="" name="VAR">status</field>
@@ -346,7 +346,7 @@
                   <arg name="Connection.CELL" value="Conexão celular genérico"/>
                   <arg name="Connection.NONE" value="Nenhuma conexão de rede"/>
                 </mutation>
-                <field customattributes="" name="SELECT">Connection.ETHERNET</field>
+                <field customattributes="" name="SELECT">Connection.CELL_4G</field>
               </block>
             </value>
           </block>
@@ -379,7 +379,7 @@
     </statement>
   </block>
   <block asynccall="false" colour="#995ba5" datasourcetype="" id="a_fmz8(UM}.,_T]b`G2N" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-307" y="325">
-    <field customattributes="" name="NAME">Example7</field>
+    <field customattributes="" name="NAME">ConexaoGenerica</field>
     <statement name="STACK">
       <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="a_fmz8(UM}.,_T]b`G2N" id="U^oUjJOjjE3q{]]xFq3K" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
         <field customattributes="" name="VAR">status</field>
@@ -400,7 +400,7 @@
                   <arg name="Connection.CELL" value="Conexão celular genérico"/>
                   <arg name="Connection.NONE" value="Nenhuma conexão de rede"/>
                 </mutation>
-                <field customattributes="" name="SELECT">Connection.UNKNOWN</field>
+                <field customattributes="" name="SELECT">Connection.CELL</field>
               </block>
             </value>
           </block>

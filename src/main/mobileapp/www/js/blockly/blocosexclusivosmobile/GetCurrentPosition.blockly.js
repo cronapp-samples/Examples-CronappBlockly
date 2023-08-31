@@ -11,7 +11,7 @@ window.blockly.js.blockly.blocosexclusivosmobile.GetCurrentPosition = window.blo
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 31/08/2023, 08:08:03
+ * @since 31/08/2023, 12:03:55
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.GetCurrentPosition.Example2Args = [];
@@ -40,7 +40,7 @@ window.blockly.js.blockly.blocosexclusivosmobile.GetCurrentPosition.Example2 = a
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 31/08/2023, 08:08:03
+ * @since 31/08/2023, 12:03:55
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.GetCurrentPosition.Example3Args = [];
@@ -50,11 +50,11 @@ window.blockly.js.blockly.blocosexclusivosmobile.GetCurrentPosition.Example3 = a
   this.cronapi.cordova.geolocation.getCurrentPosition(async function(sender_item) {
       item = sender_item;
     //
-    this.cronapi.screen.notify('success',String('Sucesso! ') + String(item));
+    this.cronapi.screen.notify('success',String('Sucesso! \n') + String(item));
   }.bind(this), async function(sender_item) {
       item = sender_item;
     //
-    this.cronapi.screen.notify('success',String('Erro! ') + String(item));
+    this.cronapi.screen.notify('success',String('Erro! \n') + String(item));
   }.bind(this));
 }
 
@@ -65,7 +65,7 @@ window.blockly.js.blockly.blocosexclusivosmobile.GetCurrentPosition.Example3 = a
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 31/08/2023, 08:08:03
+ * @since 31/08/2023, 12:03:55
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.GetCurrentPosition.ExampleArgs = [];
