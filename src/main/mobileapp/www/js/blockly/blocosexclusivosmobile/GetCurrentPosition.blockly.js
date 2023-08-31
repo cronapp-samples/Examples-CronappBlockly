@@ -11,12 +11,12 @@ window.blockly.js.blockly.blocosexclusivosmobile.GetCurrentPosition = window.blo
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 28/08/2023, 14:02:37
+ * @since 31/08/2023, 08:08:03
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.GetCurrentPosition.Example2Args = [];
 window.blockly.js.blockly.blocosexclusivosmobile.GetCurrentPosition.Example2 = async function() {
- var item, objeto;
+ var item;
   //
   this.cronapi.cordova.geolocation.getCurrentPosition(async function(sender_item) {
       item = sender_item;
@@ -34,18 +34,43 @@ window.blockly.js.blockly.blocosexclusivosmobile.GetCurrentPosition.Example2 = a
 }
 
 /**
+ * @function Example3
+ *
+ *
+ *
+ *
+ * @author Laila Maria Vieira Souza
+ * @since 31/08/2023, 08:08:03
+ *
+ */
+window.blockly.js.blockly.blocosexclusivosmobile.GetCurrentPosition.Example3Args = [];
+window.blockly.js.blockly.blocosexclusivosmobile.GetCurrentPosition.Example3 = async function() {
+ var item;
+  //
+  this.cronapi.cordova.geolocation.getCurrentPosition(async function(sender_item) {
+      item = sender_item;
+    //
+    this.cronapi.screen.notify('success',String('Sucesso! ') + String(item));
+  }.bind(this), async function(sender_item) {
+      item = sender_item;
+    //
+    this.cronapi.screen.notify('success',String('Erro! ') + String(item));
+  }.bind(this));
+}
+
+/**
  * @function Example
  *
  *
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 28/08/2023, 14:02:37
+ * @since 31/08/2023, 08:08:03
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.GetCurrentPosition.ExampleArgs = [];
 window.blockly.js.blockly.blocosexclusivosmobile.GetCurrentPosition.Example = async function() {
- var item, objeto;
+ var item;
   //
   this.cronapi.cordova.geolocation.getCurrentPosition(async function(sender_item) {
       item = sender_item;

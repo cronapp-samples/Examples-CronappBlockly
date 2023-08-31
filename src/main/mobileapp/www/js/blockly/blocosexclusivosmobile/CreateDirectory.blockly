@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><blockly audit="false" blocklyType="MOBILE" bpmnAble="false" formTarget="" functionCategory="" library="false" linkHelp="" multilayer="false" resourceType="JS" ruleDescription="CreateDirectory" ruleName="CreateDirectory" ruleSynchronous="false" ruleTimeout="" ruleType="I" showAsFunction="false" soap="false" swagger="false">
-  <metadata scale="1" scrollx="305.50000000000006" scrolly="-55.400000000000034" target="|-Qm2GWflhY|uK}hjLll"/>
+  <metadata scale="1" scrollx="303.4999999999998" scrolly="-253.39999999999998" target="|-Qm2GWflhY|uK}hjLll"/>
   <block asynccall="false" colour="#995ba5" datasourcetype="" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-217" y="98">
     <field customattributes="" name="NAME">Example</field>
     <statement name="STACK">
@@ -61,7 +61,7 @@
       </block>
     </statement>
   </block>
-  <block asynccall="false" colour="#995ba5" datasourcetype="" id="|-Qm2GWflhY|uK}hjLll" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-217" y="98">
+  <block asynccall="false" colour="#995ba5" datasourcetype="" id="|-Qm2GWflhY|uK}hjLll" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-197" y="131">
     <field customattributes="" name="NAME">Example2</field>
     <statement name="STACK">
       <block asynccall="false" colour="#846a27" datasourcetype="" dependencyby="|-Qm2GWflhY|uK}hjLll" id="JFY94BPVqH3fG=/XtGvi" multilayer="false" namespace="cronapi.cordova.file.createDirectory" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3ECriar%20Diret%C3%B3rio%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EcreateDirectoryDescription%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Diret%C3%B3rio%20Pai%20:%20Texto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Nome%20do%20Diret%C3%B3rio%20:%20Texto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Sucesso%20:%20Envio%20de%20comandos%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Erro%20:%20Envio%20de%20comandos%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.cordova.file.createDirectory','cronapi.cordova.file.createDirectory')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
@@ -105,6 +105,19 @@
               <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="|-Qm2GWflhY|uK}hjLll" id=")8v%|%%#Dr6lUv,f),7^" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
                 <field customattributes="" name="TEXT">Diretório criado com sucesso!</field>
               </shadow>
+              <block asynccall="false" colour="#5ba58c" datasourcetype="" dependencyby="|-Qm2GWflhY|uK}hjLll" id="wc3{rdNyD^.x/sU;TL+E" origintype="text_join" output="true" tooltip="Criar um pedaço de texto juntando qualquer número de itens." type="text_join">
+                <mutation items="2"/>
+                <value name="ADD0">
+                  <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="|-Qm2GWflhY|uK}hjLll" id="`K/{B1pM}X%=WzU7Eyc3" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                    <field customattributes="" name="TEXT">Sucesso! </field>
+                  </block>
+                </value>
+                <value name="ADD1">
+                  <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="|-Qm2GWflhY|uK}hjLll" id="rq8Z6G46~HhEBd)g,J`C" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                    <field customattributes="" name="VAR">item</field>
+                  </block>
+                </value>
+              </block>
             </value>
           </block>
         </statement>
@@ -116,6 +129,19 @@
               <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="|-Qm2GWflhY|uK}hjLll" id="`-7[8kTGhn8(Af?v6*ak" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
                 <field customattributes="" name="TEXT">Erro ao criar diretório!</field>
               </shadow>
+              <block asynccall="false" colour="#5ba58c" datasourcetype="" dependencyby="|-Qm2GWflhY|uK}hjLll" id="a)@_L)ro{15%(TVv@EoB" origintype="text_join" output="true" tooltip="Criar um pedaço de texto juntando qualquer número de itens." type="text_join">
+                <mutation items="2"/>
+                <value name="ADD0">
+                  <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="|-Qm2GWflhY|uK}hjLll" id="J%Or^(dErgF92AxTrvNo" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                    <field customattributes="" name="TEXT">Erro! </field>
+                  </block>
+                </value>
+                <value name="ADD1">
+                  <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="|-Qm2GWflhY|uK}hjLll" id="Pl=pqDm@t1?DS$(Dk]n0" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                    <field customattributes="" name="VAR">item</field>
+                  </block>
+                </value>
+              </block>
             </value>
           </block>
         </statement>
