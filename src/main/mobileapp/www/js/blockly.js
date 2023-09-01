@@ -11,13 +11,13 @@ document.write("<script charset='UTF-8' src='js/blockly/auth/Login.blockly.js?16
 document.write("<script charset='UTF-8' src='js/blockly/auth/Home.blockly.js?1692987434990'></script>");
 document.write("<script charset='UTF-8' src='js/blockly/auth/ChangePassword.blockly.js?1692987435006'></script>");
 document.write("<script charset='UTF-8' src='js/blockly/auth/UserControl.blockly.js?1692987434870'></script>");
-document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/SetStorageItem.blockly.js?1693245149806'></script>");
+document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/SetStorageItem.blockly.js?1693567713864'></script>");
 document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/GetDirectory.blockly.js?1692987435038'></script>");
 document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/CreateFile.blockly.js?1693499949869'></script>");
 document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/RemoveFile.blockly.js?1693319478908'></script>");
 document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/VerifyConnection.blockly.js?1693494674966'></script>");
 document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/Vibrate.blockly.js?1693494801491'></script>");
-document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/RemoveStorageItem.blockly.js?1693250028742'></script>");
+document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/RemoveStorageItem.blockly.js?1693566074712'></script>");
 document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/WatchPosition.blockly.js?1692987435102'></script>");
 document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/GetCurrentPosition.blockly.js?1693494233832'></script>");
 document.write("<script charset='UTF-8' src='js/blockly/blocosexclusivosmobile/GetConnection.blockly.js?1692987434938'></script>");

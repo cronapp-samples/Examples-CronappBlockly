@@ -11,14 +11,12 @@ window.blockly.js.blockly.blocosexclusivosmobile.SetStorageItem = window.blockly
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 28/08/2023, 14:52:35
+ * @since 01/09/2023, 09:48:05
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.SetStorageItem.ExampleArgs = [];
 window.blockly.js.blockly.blocosexclusivosmobile.SetStorageItem.Example = async function() {
  var item;
-  //
-  this.cronapi.cordova.storage.setStorageItem('nome', 'Ana');
   //
   item = this.cronapi.cordova.storage.getStorageItem('nome');
   //
