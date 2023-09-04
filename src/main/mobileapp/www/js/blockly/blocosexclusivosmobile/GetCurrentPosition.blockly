@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><blockly audit="false" blocklyType="MOBILE" bpmnAble="false" formTarget="" functionCategory="" library="false" linkHelp="" multilayer="false" resourceType="JS" ruleDescription="GetCurrentPosition" ruleName="GetCurrentPosition" ruleSynchronous="false" ruleTimeout="" ruleType="I" showAsFunction="false" soap="false" swagger="false">
-  <metadata scale="1" scrollx="393.5" scrolly="-143.4" target="0DP9/I!H/2MTPk!|BAr;"/>
+  <metadata scale="1" scrollx="393.5" scrolly="-143.39999999999995" target="0DP9/I!H/2MTPk!|BAr;"/>
   <block asynccall="false" colour="#995ba5" datasourcetype="" id="9cBc0`RoV^}iSzu:3u,N" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-311" y="188">
     <field customattributes="" name="NAME">Example2</field>
     <statement name="STACK">
@@ -324,6 +324,18 @@ Timestamp: </field>
                 </value>
               </block>
             </value>
+            <next>
+              <block asynccall="false" colour="#5ba58c" datasourcetype="" dependencyby="0DP9/I!H/2MTPk!|BAr;" id="-gaksEr4VrM_Ts9tKTe/" origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+                <value name="TEXT">
+                  <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="0DP9/I!H/2MTPk!|BAr;" id="SijKhyDrchFV,/:k`(Wc" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                    <field customattributes="" name="TEXT">abc</field>
+                  </shadow>
+                  <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="0DP9/I!H/2MTPk!|BAr;" id="1LO4?_H,r1B!pmNjCLy9" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                    <field customattributes="" name="VAR">item</field>
+                  </block>
+                </value>
+              </block>
+            </next>
           </block>
         </statement>
         <statement name="ARG1">
