@@ -1,0 +1,142 @@
+{
+  "customId": "query479267",
+  "queryName": "Alunos",
+  "sourceType": "entityFullName",
+  "baseEntity": null,
+  "blockly": null,
+  "entitySimpleName": "Aluno",
+  "entityFullName": "app.entity.Aluno",
+  "query": {
+    "isValid": true,
+    "isEmpty": false,
+    "operationType": "object",
+    "isNativeQuery": false,
+    "namespace": "app",
+    "type": "select",
+    "rulesEntity": [
+      {
+        "entity": "Aluno",
+        "namespace": "app.entity.Aluno",
+        "dataSourceOptions": {
+          "id": "app.Aluno",
+          "customId": "Aluno",
+          "customQueryName": "app.Aluno",
+          "paramValues": [],
+          "entityFullName": "app.entity.Aluno",
+          "schemaFields": [
+            {
+              "name": "id",
+              "type": "String",
+              "nullable": false,
+              "key": false
+            },
+            {
+              "name": "nome",
+              "type": "String",
+              "nullable": true,
+              "key": false
+            },
+            {
+              "name": "nota",
+              "type": "String",
+              "nullable": true,
+              "key": false
+            },
+            {
+              "name": "_objectKey",
+              "type": "String",
+              "nullable": false,
+              "key": true
+            }
+          ],
+          "type": "entity",
+          "hasError": false,
+          "customName": "Aluno",
+          "fullName": "app.entity.Aluno",
+          "labelName": "app.entity.Aluno (Aluno)"
+        },
+        "alias": "a"
+      }
+    ],
+    "rulesSelect": [
+      {
+        "func": "get",
+        "field": "a",
+        "type": "string"
+      }
+    ],
+    "rulesJoin": [],
+    "rulesGroupBy": [],
+    "rulesHaving": [],
+    "rulesOrderBy": [],
+    "rules": {
+      "condition": "AND",
+      "rules": [],
+      "not": false,
+      "valid": true
+    },
+    "isRawSql": false,
+    "multiTenant": false,
+    "paginatorAutomatic": false,
+    "pagination": false
+  },
+  "queryParamsValues": [],
+  "verbs": {
+    "GET": true,
+    "GETAuthorities": null,
+    "POST": true,
+    "POSTAuthorities": null,
+    "PUT": true,
+    "PUTAuthorities": null,
+    "DELETE": true,
+    "DELETEAuthorities": null,
+    "FILTER": true,
+    "FILTERAuthorities": null,
+    "COUNT": true,
+    "COUNTAuthorities": null
+  },
+  "events": {
+    "beforeInsert": null,
+    "beforeUpdate": null,
+    "beforeDelete": null,
+    "afterInsert": null,
+    "afterUpdate": null,
+    "afterDelete": null,
+    "onNavigate": null,
+    "onAuthorize": null,
+    "onError": null
+  },
+  "defaultValues": {
+    "id": null,
+    "nome": null,
+    "nota": null,
+    "media": null,
+    "aprovado": null
+  },
+  "defaultValuesProperties": {
+    "id": null,
+    "nome": null,
+    "nota": null,
+    "media": null,
+    "aprovado": null
+  },
+  "security": {
+    "id": null,
+    "nome": null,
+    "nota": null,
+    "media": null,
+    "aprovado": null
+  },
+  "calcFields": {},
+  "calcFieldsSecurity": {},
+  "calcFieldsProperties": {},
+  "headers": {},
+  "errorHandles": {
+    "primaryKey": null,
+    "foreignKey": null
+  },
+  "serviceUrl": "api/cronapi/odata/v2/app/query479267/",
+  "audit": false,
+  "swagger": false,
+  "library": false
+}
