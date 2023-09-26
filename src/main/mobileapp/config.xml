@@ -20,7 +20,7 @@
         </edit-config>
         <resource-file src="network_security_config.xml" target="app/src/main/res/xml/network_security_config.xml"/>
         <preference name="android-minSdkVersion" value="24"/>
-        <preference name="android-targetSdkVersion" value="32"/>
+        <preference name="android-targetSdkVersion" value="33"/>
         <icon density="ldpi" src="res/icon/android/drawable-ldpi-icon.png"/>
         <icon density="mdpi" src="res/icon/android/drawable-mdpi-icon.png"/>
         <icon density="hdpi" src="res/icon/android/drawable-hdpi-icon.png"/>
@@ -130,5 +130,5 @@
             <string>The App would like to have access to user’s Reminders in order to show and add new appointments.</string>
         </edit-config>
     </platform>
-    <plugin name="cordova-plugin-cronapp" spec="2.9.6-SP.4"/>
+    <plugin name="cordova-plugin-cronapp" spec="2.9.6-SP.13"/>
 </widget>

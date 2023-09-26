@@ -11,7 +11,7 @@ window.blockly.js.blockly.blocosexclusivosmobile.ReadFile = window.blockly.js.bl
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 31/08/2023, 13:53:06
+ * @since 11/09/2023, 08:13:38
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.Text2Args = [];
@@ -36,7 +36,7 @@ window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.Text2 = async function
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 31/08/2023, 13:53:06
+ * @since 11/09/2023, 08:13:38
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.ArraybufferArgs = [];
@@ -61,7 +61,7 @@ window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.Arraybuffer = async fu
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 31/08/2023, 13:53:06
+ * @since 11/09/2023, 08:13:38
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.BinaryStringArgs = [];
@@ -86,7 +86,7 @@ window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.BinaryString = async f
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 31/08/2023, 13:53:06
+ * @since 11/09/2023, 08:13:38
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.DataUrlArgs = [];
@@ -111,7 +111,7 @@ window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.DataUrl = async functi
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 31/08/2023, 13:53:06
+ * @since 11/09/2023, 08:13:38
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.ReadFile.TesteArgs = [];

@@ -11,12 +11,12 @@ window.blockly.js.blockly.blocosexclusivosmobile.ExecuteSql = window.blockly.js.
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 04/09/2023, 14:29:32
+ * @since 22/09/2023, 14:48:22
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.ExecuteSql.CriarBancoArgs = [];
 window.blockly.js.blockly.blocosexclusivosmobile.ExecuteSql.CriarBanco = async function() {
- var objeto, i, item;
+ var objeto, i, item, lista;
   //
   this.cronapi.cordova.database.openDatabase('contatos');
 }
@@ -28,14 +28,15 @@ window.blockly.js.blockly.blocosexclusivosmobile.ExecuteSql.CriarBanco = async f
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 04/09/2023, 14:29:32
+ * @since 22/09/2023, 14:48:22
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.ExecuteSql.CriarTabelasArgs = [];
 window.blockly.js.blockly.blocosexclusivosmobile.ExecuteSql.CriarTabelas = async function() {
- var objeto, i, item;
+ var objeto, i, item, lista;
   //
-  item = (await this.cronapi.client('cronapi.cordova.database.executeSQL').run('contatos', 'CREATE TABLE Pessoa (idPessoa integer PRIMARY KEY, nome);\nCREATE TABLE TELEFONE (idTel integer PRIMARY KEY, num, idPessoa, CONSTRAINT fk_PesTel FOREIGN KEY (idPessoa) REFERENCES pessoa (idPessoa));', null));
+  item = (await this.cronapi.client('cronapi.cordova.database.executeSQL').run('contatos', 'CREATE TABLE PESSOA (idPessoa integer PRIMARY KEY, nome);\nCREATE TABLE TELEFONE (idTelefone integer PRIMARY KEY, numero, idPessoa, CONSTRAINT fk_PesTel FOREIGN KEY (idPessoa) REFERENCES PESSOA (idPes' +
+   'soa));', null));
 }
 
 /**
@@ -45,12 +46,12 @@ window.blockly.js.blockly.blocosexclusivosmobile.ExecuteSql.CriarTabelas = async
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 04/09/2023, 14:29:32
+ * @since 22/09/2023, 14:48:22
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.ExecuteSql.DeletarRegistrosArgs = [];
 window.blockly.js.blockly.blocosexclusivosmobile.ExecuteSql.DeletarRegistros = async function() {
- var objeto, i, item;
+ var objeto, i, item, lista;
   //
   item = (await this.cronapi.client('cronapi.cordova.database.executeSQL').run('contatos', 'DELETE FROM TELEFONE WHERE idTel=?', ['1']));
 }
@@ -62,12 +63,12 @@ window.blockly.js.blockly.blocosexclusivosmobile.ExecuteSql.DeletarRegistros = a
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 04/09/2023, 14:29:32
+ * @since 22/09/2023, 14:48:22
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.ExecuteSql.InserirRegistrosArgs = [];
 window.blockly.js.blockly.blocosexclusivosmobile.ExecuteSql.InserirRegistros = async function() {
- var objeto, i, item;
+ var objeto, i, item, lista;
   //
   item = (await this.cronapi.client('cronapi.cordova.database.executeSQL').run('contatos', 'INSERT INTO Pessoa (nome) VALUES (?);', ['Ana']));
   //
@@ -81,12 +82,12 @@ window.blockly.js.blockly.blocosexclusivosmobile.ExecuteSql.InserirRegistros = a
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 04/09/2023, 14:29:32
+ * @since 22/09/2023, 14:48:22
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.ExecuteSql.AtualizarDadosArgs = [];
 window.blockly.js.blockly.blocosexclusivosmobile.ExecuteSql.AtualizarDados = async function() {
- var objeto, i, item;
+ var objeto, i, item, lista;
   //
   item = (await this.cronapi.client('cronapi.cordova.database.executeSQL').run('contatos', 'UPDATE PESSOA SET nome=? WHERE idPessoa=1;', ['Ana Paula']));
 }
@@ -98,12 +99,12 @@ window.blockly.js.blockly.blocosexclusivosmobile.ExecuteSql.AtualizarDados = asy
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 04/09/2023, 14:29:32
+ * @since 22/09/2023, 14:48:22
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.ExecuteSql.ConsultarRegistrosArgs = [];
 window.blockly.js.blockly.blocosexclusivosmobile.ExecuteSql.ConsultarRegistros = async function() {
- var objeto, i, item;
+ var objeto, i, item, lista;
   //
   objeto = (await this.cronapi.client('cronapi.cordova.database.executeSQL').run('contatos', 'SELECT * FROM TELEFONE WHERE idPessoa=?;', ['1']));
   //
@@ -117,6 +118,8 @@ window.blockly.js.blockly.blocosexclusivosmobile.ExecuteSql.ConsultarRegistros =
       break;
     }
     //
-    this.cronapi.screen.changeValueOfField("vars.input1877", item);
+    lista = [lista,this.cronapi.text.newline(),item].join('');
   }
+  //
+  this.cronapi.screen.changeValueOfField("vars.textarea4001", item);
 }

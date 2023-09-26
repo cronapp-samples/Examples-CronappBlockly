@@ -11,7 +11,7 @@ window.blockly.js.blockly.blocosexclusivosmobile.CreateFile = window.blockly.js.
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 04/09/2023, 14:21:08
+ * @since 11/09/2023, 14:53:53
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.CreateFile.ExampleArgs = [];
@@ -42,20 +42,20 @@ window.blockly.js.blockly.blocosexclusivosmobile.CreateFile.Example = async func
  *
  *
  * @author Laila Maria Vieira Souza
- * @since 04/09/2023, 14:21:08
+ * @since 11/09/2023, 14:53:53
  *
  */
 window.blockly.js.blockly.blocosexclusivosmobile.CreateFile.Example2Args = [];
 window.blockly.js.blockly.blocosexclusivosmobile.CreateFile.Example2 = async function() {
  var item;
   //
-  this.cronapi.cordova.file.createFile(this.cronapi.cordova.file.getDirectory('0'), 'NovoDir/meuArquivo.txt', 'Este conteúdo será adicionado ao arquivo criado', async function(sender_item) {
+  this.cronapi.cordova.file.createFile(String(this.cronapi.cordova.file.getDirectory('0')) + String('NovoDir'), 'meuArquivo.txt', 'Este conteúdo será adicionado ao arquivo criado', async function(sender_item) {
       item = sender_item;
     //
-    this.cronapi.screen.notify('success',String('Sucesso!\n') + String(item));
+    this.cronapi.screen.notify('success','Arquivo criado com sucesso!');
   }.bind(this), async function(sender_item) {
       item = sender_item;
     //
-    this.cronapi.screen.notify('error',String('Erro! \n') + String(item));
+    this.cronapi.screen.notify('error','Erro ao criar arquivo!');
   }.bind(this));
 }
