@@ -14,7 +14,7 @@ public static final int TIMEOUT = 300;
 /**
  *
  * @author Laila Maria Vieira Souza
- * @since 26/09/2023, 16:10:22
+ * @since 26/09/2023, 16:43:00
  *
  */
 public static Var Example() throws Exception {
@@ -23,11 +23,11 @@ public static Var Example() throws Exception {
    public Var call() throws Exception {
     for (long count = 0; count <
     Var.valueOf(5).getObjectAsLong();count++) {
-            System.out.println(
+            cronapi.util.Operations.sleep(
+        Var.valueOf(4));
+        System.out.println(
         cronapi.dateTime.Operations.getSecond(
         cronapi.dateTime.Operations.getNow()).getObjectAsString());
-        cronapi.util.Operations.sleep(
-        Var.valueOf(2));
     } // end for
     return Var.VAR_NULL;
    }
